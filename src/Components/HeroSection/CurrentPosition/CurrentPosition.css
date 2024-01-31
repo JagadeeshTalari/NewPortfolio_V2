@@ -1,0 +1,8 @@
+.forHire{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.currentPosition > *{
+    margin-bottom: 0.5rem;
+}

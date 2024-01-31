@@ -1,0 +1,11 @@
+.skillsArticle{
+    gap: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.topSkills__section span{
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: 400;
+}

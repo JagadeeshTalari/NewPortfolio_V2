@@ -1,0 +1,15 @@
+.allTools{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.tools_item{
+    background-color: #fcf655;
+    width: fit-content;
+    padding: 0.35rem 0.5rem;
+    
+}
+
