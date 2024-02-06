@@ -1,0 +1,28 @@
+.innerCircle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 17.5px;
+    top: 17.5px;
+}
+
+.circles{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #CFD1D7;
+    position: relative;
+    right: 1.5rem;
+    top: 3rem;
+}
+
+
+.active.circles{
+    background-color: black;
+}
+
+.active .innerCircle{
+    background-color: yellow;
+}

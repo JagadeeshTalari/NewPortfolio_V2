@@ -1,4 +1,5 @@
 import './App.css'
+import About from './Components/About/About'
 import HeroSection from './Components/HeroSection'
 import Navbar from './Components/Navbar/Navbar'
 import SelfIntroducing from './Components/SelfIntroducing/SelfIntroducing'
@@ -12,6 +13,7 @@ function App() {
    <SelfIntroducing/>
    <HeroSection/>
    </div>
+   <About/>
    </>
   )
 }
