@@ -1,5 +1,6 @@
 import './App.css'
 import About from './Components/About/About'
+import Articles from './Components/Articles/Articles'
 import Certifications from './Components/Certifications/Certifications'
 import HeroSection from './Components/HeroSection'
 import Navbar from './Components/Navbar/Navbar'
@@ -18,6 +19,7 @@ function App() {
    <About/>
    <Projects/>
    <Certifications/>
+   <Articles/>
    </>
   )
 }
