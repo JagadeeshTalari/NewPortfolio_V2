@@ -6,7 +6,7 @@ import Article from './Article'
 const Articles = () => {
   return (
     <div id='articles' className='articles-section'>
-        <div>ARTICLES</div>
+        <div className='connect'>ARTICLES</div>
         <Article image={githubCertificate}/>
         <Article image={htmlCertificate}/>
         <Article/>

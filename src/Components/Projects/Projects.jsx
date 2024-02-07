@@ -5,7 +5,7 @@ import Project from './Project'
 const Projects = () => {
   return (
     <div id='projects' className='projects-section'>
-      <div>Projects</div>
+      <div className='connect'>PROJECTS</div>
       <div className="articles-section">
         <Project/>
         <Project/>
