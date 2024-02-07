@@ -7,7 +7,7 @@ const Certificate = ({image}) => {
       <img className='article_img certificate_img' src={image} alt="" />
       <div>
         <h4>Git & GitHub</h4>
-        <a href="">Credential Url</a>
+        <a className='credentialLink' href="">Credential Url</a>
         <p>Learn Code Online</p>
         <p>Duration</p>
       </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./WorkHistory.css"
-import Circles from './circles'
+import Circles from './Circles'
 
 const WorkHistory = () => {
   return (
