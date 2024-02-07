@@ -37,3 +37,9 @@ section{
   padding-left:3rem;
   /* width: 67%; */
 }
+
+.sectionHeading {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
