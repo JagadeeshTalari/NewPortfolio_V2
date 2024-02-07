@@ -1,10 +1,10 @@
 .selfIntro{
-    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    width: 30%;
-    
+    width: 27%;
+    position: sticky;
+    top: 30px;
 }
 
 .profile{
@@ -53,3 +53,4 @@
 .bg-black__box > a{
     color: #edecec;
 }
+

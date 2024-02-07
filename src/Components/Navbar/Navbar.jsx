@@ -4,9 +4,8 @@ import "./Navbar.css"
 const Navbar = () => 
 {
     return (
-        <nav className='d-flex' style={{justifyContent: "space-between"}}>
-            <h3 className='logo'>JT</h3>
-            <h3>Navbar</h3> 
+        <nav className='navbar d-flex' style={{justifyContent: "space-between"}}>
+            <h3 className='logo'>JT</h3> 
             <div>
                 <ul className='d-flex' style={{gap: "2rem"}}>
                     <li>About</li>

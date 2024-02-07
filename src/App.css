@@ -17,3 +17,21 @@
 section{
   margin-top: 1.75rem;
 }
+
+.aboutDetails{
+  width: 60%;
+}
+
+.dividerLine{
+  width: 1px;
+  height: 450vh;
+  background-color: #6b6b6b;
+}
+
+.layout{
+  gap: 3rem;
+  align-items: start;
+  width: 87%;
+  margin: auto;
+  margin-top: 4rem;
+}
