@@ -9,3 +9,43 @@
     flex-direction: column;
     gap: 1.75rem;
 }
+
+/* Project Styling */
+
+.project.article-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 14px;
+}
+
+.project.article-box > p{
+    line-height: 18px;
+}
+
+.projectHeading > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.projectImg{
+    width: 70px;
+    /* border:; */
+    border: 0.5px solid #a5a5a5;
+    padding: 1px;
+}
+
+.projectName{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.projectLink, .sourceCode{
+    text-decoration: underline;
+    font-size: 14px;
+    margin-top: 0.25rem;
+}
+
+.explore{
+    align-self: flex-end;
+}

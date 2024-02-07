@@ -30,12 +30,13 @@ a {
   background-color: #fff;
   border-top: 4px solid #9b9b9b;
   padding: 15px;
+  gap: 1.5rem;
 }
 
 .badge{
   border: 1px solid #c7c7c7;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500;
-  padding: 5px 8px;
+  padding: 5px 10px;
   border-radius: 15px;
 }
