@@ -15,7 +15,7 @@ function App() {
     <Navbar/>
     <div className="d-flex layout">
       <SelfIntroducing/>
-      <div className='dividerLine'></div>
+      {/* <div className='dividerLine'></div> */}
       <div className='aboutDetails'>
         <HeroSection/>
         <About/>

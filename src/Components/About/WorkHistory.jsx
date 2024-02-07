@@ -4,7 +4,7 @@ import Circles from './circles'
 
 const WorkHistory = () => {
   return (
-    <div>
+    <div id='workHistory'>
         <h4>WorkHistory</h4>
         <div className="workHistorLine">
           <Circles activeClass="active"/>

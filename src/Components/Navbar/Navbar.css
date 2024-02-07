@@ -1,5 +1,6 @@
 .navbar{
     padding: 1rem 2rem;
+    justify-content: space-between;
 }
 
 .logo {
@@ -11,4 +12,15 @@
     justify-content: center;
     align-items: center;
     font-size: 24px;
+}
+.navLinks{
+    gap: 1rem;
+}
+
+.navLinks > li{
+    
+    background-color: #fcf655;
+    padding: 0.5rem 1.75rem;
+    border-radius: 20px;
+    font-weight: 500;
 }

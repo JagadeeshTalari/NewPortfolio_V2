@@ -4,14 +4,14 @@ import "./Navbar.css"
 const Navbar = () => 
 {
     return (
-        <nav className='navbar d-flex' style={{justifyContent: "space-between"}}>
+        <nav className='navbar d-flex'>
             <h3 className='logo'>JT</h3> 
             <div>
-                <ul className='d-flex' style={{gap: "2rem"}}>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Certifications</li>
-                    <li>Articles</li>
+                <ul className='navLinks d-flex'>
+                    <li><a href="#workHistory">Work history</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="mailto:talarijagadeesh55@gmail.com">Contact me</a></li>
+                    <li><a href="#articles">Articles</a></li>
                 </ul>
             </div>
         </nav>

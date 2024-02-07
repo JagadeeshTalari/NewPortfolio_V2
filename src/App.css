@@ -35,3 +35,8 @@ section{
   margin: auto;
   margin-top: 4rem;
 }
+
+.aboutDetails{
+  border-left: 1px solid #959595;
+  padding: 0rem 3rem;
+}
