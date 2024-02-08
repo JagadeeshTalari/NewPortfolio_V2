@@ -18,7 +18,7 @@ const Project = () => {
                 </div>
             </div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus aspernatur velit quae impedit assumenda labore nostrum aut, optio nulla sint nesciunt quisquam molestiae at, corporis possimus ipsam veritatis temporibus tempore, consequatur culpa fugiat est officia expedita quas? Eligendi pariatur suscipit reiciendis quod exercitationem illo quos sed! Velit consequatur vero culpa.</p>
-            <div className='d-flex'>
+            <div className='d-flex badgesSection'>
               <div className="badge d-flex">
                 <div className='dot activeColor'></div>
                 Status: live

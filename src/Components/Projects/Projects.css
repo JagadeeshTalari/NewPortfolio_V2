@@ -49,3 +49,11 @@
 .explore{
     align-self: flex-end;
 }
+
+@media screen and (max-width: 450px) {
+
+    .projectHeading, .badgesSection,.badgesSection .badge{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+  }
