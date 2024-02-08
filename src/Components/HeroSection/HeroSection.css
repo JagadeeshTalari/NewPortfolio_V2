@@ -2,3 +2,10 @@
     gap: 3.5rem;
     margin-bottom: 4rem;
 }
+
+@media screen and (max-width: 450px) {
+    .heroSection{
+        gap: 1.5rem;
+        
+    }
+}

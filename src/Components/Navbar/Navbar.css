@@ -17,10 +17,35 @@
     gap: 1rem;
 }
 
+@media screen and (max-width: 450px) {
+    .navbar{
+      flex-direction: row;
+      padding: 1rem;
+    }
+
+    .navLinks{
+        display: none;
+    }
+}
+
 .navLinks > li{
     
     background-color: #fcf655;
     padding: 0.5rem 1.75rem;
     border-radius: 20px;
     font-weight: 500;
+}
+
+.hamBurgerMenu{
+    background-color: #fcf655;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+@media screen and (min-width: 451px) {
+    .hamBurgerMenu{
+      display: none;
+    }
 }

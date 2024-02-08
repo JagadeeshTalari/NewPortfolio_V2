@@ -3,6 +3,12 @@
     font-weight: 600;
 }
 
+@media screen and (max-width: 450px) {
+    .forHire{
+        flex-direction: row;
+    }
+}
+
 .currentPosition > *{
     margin-bottom: 0.5rem;
 }

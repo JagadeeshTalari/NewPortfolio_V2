@@ -10,6 +10,13 @@
     padding: 0rem 2rem;
 }
 
+@media screen and (max-width: 450px) {
+  .selfIntro{
+    position: relative;
+    padding: 0rem;
+  }
+}
+
 .profile{
     position: relative;
 }

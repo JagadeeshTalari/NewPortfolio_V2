@@ -14,6 +14,12 @@
   gap: 4px;
 }
 
+@media screen and (max-width: 450px) {
+  .d-flex{
+    flex-direction: column;
+  }
+}
+
 section{
   margin-top: 1.75rem;
 }
@@ -38,6 +44,20 @@ section{
   width: 67%;
 }
 
+@media screen and (max-width: 450px) {
+  .layout{
+   width: 92%;
+   margin-top: 0rem;
+  }
+  
+.aboutDetails{
+  border-left: none;
+  padding-left: 0rem;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+}
 .sectionHeading {
   font-size: 13px;
   font-weight: 500;
