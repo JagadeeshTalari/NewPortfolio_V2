@@ -10,6 +10,7 @@ import SelfIntroducing from './Components/SelfIntroducing/SelfIntroducing'
 
 
 function App() {
+  
   return (
    <>
     <Navbar/>
