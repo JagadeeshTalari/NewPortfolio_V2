@@ -1,59 +1,62 @@
-.projects-section{
-    display: flex;
-    flex-direction: column;
-    gap: 1.25rem;
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
 }
 
-.articles-section{
-    display: flex;
-    flex-direction: column;
-    gap: 1.75rem;
+.articles-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
 }
 
 /* Project Styling */
 
-.project.article-box{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    font-size: 14px;
+.project.article-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 14px;
 }
 
-.project.article-box > p{
-    line-height: 18px;
+.project.article-box > p {
+  line-height: 18px;
 }
 
-.projectHeading > div{
-    display: flex;
-    flex-direction: column;
+.projectHeading > div {
+  display: flex;
+  flex-direction: column;
 }
 
-.projectImg{
-    width: 70px;
-    /* border:; */
-    border: 0.5px solid #a5a5a5;
-    padding: 1px;
+.projectImg {
+  width: 70px;
+  height: 70px;
+  /* border:; */
+  border: 0.5px solid #a5a5a5;
+  padding: 1px;
 }
 
-.projectName{
-    font-size: 14px;
-    font-weight: 600;
+.projectName {
+  font-size: 14px;
+  font-weight: 600;
 }
 
-.projectLink, .sourceCode{
-    text-decoration: underline;
-    font-size: 14px;
-    margin-top: 0.25rem;
+.projectLink,
+.sourceCode {
+  text-decoration: underline;
+  font-size: 14px;
+  margin-top: 0.25rem;
 }
 
-.explore{
-    align-self: flex-end;
+.explore {
+  align-self: flex-end;
 }
 
 @media screen and (max-width: 450px) {
-
-    .projectHeading, .badgesSection,.badgesSection .badge{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+  .projectHeading,
+  .badgesSection,
+  .badgesSection .badge {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
+}
