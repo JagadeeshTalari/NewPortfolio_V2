@@ -1,15 +1,20 @@
 import React from 'react'
 import "./Projects.css"
 import Project from './Project'
+import { AllprojectDetails } from '../../utils/data'
+import { nanoid } from 'nanoid'
 
 const Projects = () => {
   return (
     <div id='projects' className='projects-section'>
       <div className='connect'>PROJECTS</div>
       <div className="articles-section">
-        <Project/>
-        <Project/>
-        <Project/>
+        {
+        AllprojectDetails.map(eachProject => { 
+          return (<Project key={nanoid()} projectDetails={eachProject}/>)
+        }
+        )  
+}
         {/* <div className="article-box">
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus aspernatur velit quae impedit assumenda labore nostrum aut, optio nulla sint nesciunt quisquam molestiae at, corporis possimus ipsam veritatis temporibus tempore, consequatur culpa fugiat est officia expedita quas? Eligendi pariatur suscipit reiciendis quod exercitationem illo quos sed! Velit consequatur vero culpa.</p>
           <div className='d-flex'>
