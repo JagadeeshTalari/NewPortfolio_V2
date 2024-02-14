@@ -32,3 +32,21 @@ export const AllprojectDetails = [
 
    
 ]
+
+export const AllCertificateDetails = [
+    {
+        name:"Git & GitHub",
+        credentialUrl:"https://s3-ap-southeast-1.amazonaws.com/learnyst/schools/2410/certificates/24027/5738231_24027.pdf?1665287952",
+        platform:"Learn Code Online",
+        duration:"09th Oct 2022 - Doesn't expire",
+        imgLink: "./assets/git_github_certificate.png"
+    },
+    {
+        name:"HTML & CSS",
+        credentialUrl:"https://s3-ap-southeast-1.amazonaws.com/learnyst/schools/2410/certificates/98072/5738231_98072.pdf?1659974727",
+        platform:"Learn Code Online",
+        duration:"08th Aug 2022 - Doesn't expire",
+        imgLink: "./assets/html_css_certificate.png"
+    },
+
+]

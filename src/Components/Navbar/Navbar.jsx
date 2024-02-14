@@ -24,7 +24,7 @@ const Navbar = () =>
                     <li><a href="#workHistory">Work history</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="mailto:talarijagadeesh55@gmail.com">Contact me</a></li>
-                    <li><a href="#articles">Articles</a></li>
+                    {/* <li><a href="#articles">Articles</a></li> */}
                 </ul>
                 <div className="mobileNavLinks" onClick={toggle}>
                     {
@@ -38,7 +38,7 @@ const Navbar = () =>
                     <li onClick={close}><a href="#workHistory">Work history</a></li>
                     <li onClick={close}><a href="#projects">Projects</a></li>
                     <li onClick={close}><a href="mailto:talarijagadeesh55@gmail.com">Contact me</a></li>
-                    <li onClick={close}><a href="#articles">Articles</a></li>
+                    {/* <li onClick={close}><a href="#articles">Articles</a></li> */}
                 </ul>) : null 
                         
                     }

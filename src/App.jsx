@@ -22,7 +22,7 @@ function App() {
         <About/>
         <Projects/>
         <Certifications/>
-        <Articles/>
+        {/* <Articles/> */}
       </div>
     </div>
     <Footer/>

@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Article.css"
 
-const Article = ({image}) => {
+const Article = () => {
   return (
     <div className='blog article-box d-flex'>
-      <img className='article_img blog_img' src={image} alt="" />
+      <img className='article_img blog_img' src={{}} alt="" />
       <div>
         <h4>Git & GitHub</h4>
         <a href="">Read the article</a>
