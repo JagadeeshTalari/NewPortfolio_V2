@@ -31,7 +31,7 @@ const SelfIntroducing = () => {
       </div>
       <div className="bg-black__box">
         <a
-          href="https://drive.google.com/drive/folders/1gobxYm4Kmvp-3vg4pWUoAH427Twf1gma"
+          href="https://drive.google.com/file/d/1NpLHS30A7iVsYr05Sxz48PvtZ588fP82/view"
           target="_blank"
         >
           <GrAttachment className="icon-edit" />
