@@ -1,5 +1,6 @@
 export const AllprojectDetails = [
   {
+    id: 1,
     projectName: "Movie Review App",
     imgLink:
       "https://th.bing.com/th/id/OIP.UZ0uPe5-OYGEUwi3kWPn7QHaFX?rs=1&pid=ImgDetMain",
@@ -9,6 +10,7 @@ export const AllprojectDetails = [
     techUsed: ["ReactJs", "JavaScript", "Redux", "ReduxToolKit", "BootStrap"],
   },
   {
+    id: 2,
     projectName: "Unsplash Images",
     imgLink: "https://logowik.com/content/uploads/images/unsplash8609.jpg",
     projectLink: "https://unsplash-images-project-bay.vercel.app/",
@@ -21,6 +23,7 @@ export const AllprojectDetails = [
 
 export const AllCertificateDetails = [
   {
+    id: 1,
     name: "Git & GitHub",
     credentialUrl:
       "https://s3-ap-southeast-1.amazonaws.com/learnyst/schools/2410/certificates/24027/5738231_24027.pdf?1665287952",
@@ -29,6 +32,7 @@ export const AllCertificateDetails = [
     imgLink: "./assets/git_github_certificate.png",
   },
   {
+    id: 2,
     name: "HTML & CSS",
     credentialUrl:
       "https://s3-ap-southeast-1.amazonaws.com/learnyst/schools/2410/certificates/98072/5738231_98072.pdf?1659974727",

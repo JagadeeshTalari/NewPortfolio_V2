@@ -1,132 +1,127 @@
-.selfIntro{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    position: sticky;
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 33%;
-    top: 30px;
-    padding: 0rem 2rem;
+.selfIntro {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: sticky;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 33%;
+  top: 30px;
+  padding: 0rem 2rem;
 }
 
 @media screen and (max-width: 450px) {
-  .selfIntro{
+  .selfIntro {
     position: relative;
     padding: 0rem;
   }
 }
 
-.profile{
-    position: relative;
+.profile {
+  position: relative;
 }
 
-.position{
-    font-weight: 300;
-    font-size: 22px;
-    margin-bottom: 0.75rem;
+.position {
+  font-weight: 300;
+  font-size: 22px;
+  margin-bottom: 0.75rem;
 }
 
-.name{
-    font-weight: 300;
-    font-size: 42px;
+.name {
+  font-weight: 300;
+  font-size: 42px;
 }
 
-.firstName{
-    font-weight: 900;
+.firstName {
+  font-weight: 900;
 }
 
-.bg-circle{
-    width: 165px;
-    height: 165px;
-    border-radius: 50%;
-    background-color: rgb(151, 222, 252);
-    position: absolute;
-    z-index: -1;
-    left: 50px;
+.bg-circle {
+  width: 165px;
+  height: 165px;
+  border-radius: 50%;
+  background-color: #fcf655;
+  position: absolute;
+  z-index: -1;
+  left: 50px;
 }
 
-.profileImg{
-    width: 170px;
-    height: 170px;
-    border-radius: 50%;
+.profileImg {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
 }
 
-.bg-black__box, .bg-black__box > a
-{
-    background-color: #000000;
-    color: #edecec;
-    width: fit-content;
-    font-weight: 800;
-    padding: 8px 13px;
-    display: flex;
-    gap: 0.75rem;
-    /* align-items: center; */
+.bg-black__box,
+.bg-black__box > a {
+  background-color: #000000;
+  color: #edecec;
+  width: fit-content;
+  font-weight: 800;
+  padding: 8px 13px;
+  display: flex;
+  gap: 0.75rem;
+  /* align-items: center; */
 }
 
-.bg-black__box > a{
-    color: #edecec;
-    padding: 0px;
+.bg-black__box > a {
+  color: #edecec;
+  padding: 0px;
 }
 
-.line-separator{
-    width: 2px;
-    background-color: #edecec;
+.line-separator {
+  width: 2px;
+  background-color: #edecec;
 }
 
-.icon-edit{
-    font-size: 15px;  color: #fcf655
+.icon-edit {
+  font-size: 15px;
+  color: #fcf655;
 }
 
-.BlackIcon
-{
-    border-radius: 50%;
-    background-color: #000000;
-    padding: 0.5rem;
-    border: 1px solid #858585;
-    position: relative;
-    bottom: 0;
-    z-index: 0;
-    transition: 0.2s;
-    transition-delay: 0.2s;
+.BlackIcon {
+  border-radius: 50%;
+  background-color: #000000;
+  padding: 0.5rem;
+  border: 1px solid #858585;
+  position: relative;
+  bottom: 0;
+  z-index: 0;
+  transition: 0.2s;
+  transition-delay: 0.2s;
 }
 
-.WhiteIcon
-{
-    border-radius: 50%;
-    background-color: #fff;
-    padding: 0.5rem;
-    border: 1px solid #858585;
-    position: relative;
-    bottom: 0;
-    z-index: 0;
-    transition: 0.2s;
-    transition-delay: 0.2s;
+.WhiteIcon {
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 0.5rem;
+  border: 1px solid #858585;
+  position: relative;
+  bottom: 0;
+  z-index: 0;
+  transition: 0.2s;
+  transition-delay: 0.2s;
 }
 
-
-.WhiteIcon[alt="linkedIn"]
-{
-    right: 0.5rem;
-    
+.WhiteIcon[alt="linkedIn"] {
+  right: 0.5rem;
 }
 
-.BlackIcon[alt="github"]
-{
-    right: 1.0rem;
+.BlackIcon[alt="github"] {
+  right: 1rem;
 }
 
 .BlackIcon:hover,
-.WhiteIcon:hover{
-    bottom: 0.4rem;
-    z-index: 1;
+.WhiteIcon:hover {
+  bottom: 0.4rem;
+  z-index: 1;
 }
 
-.connect{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-top: 1rem;
-    font-size: 13px;
-    font-weight: 500;
+.connect {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 13px;
+  font-weight: 500;
 }

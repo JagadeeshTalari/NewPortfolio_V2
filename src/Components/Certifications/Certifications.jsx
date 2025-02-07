@@ -1,22 +1,24 @@
-import React from 'react'
-import "./Certificate.css"
+import React from "react";
+import "./Certificate.css";
 
-import Certificate from './Certificate'
-import { AllCertificateDetails } from '../../utils/data'
+import Certificate from "./Certificate";
+import { AllCertificateDetails } from "../../utils/data";
 
 const Certifications = () => {
   return (
-    <div className='articles-section'>
-        <div className='connect'>CERTIFICATES</div>
-        
-        {
-          AllCertificateDetails.map(eachCertificateDetails => {
-            return <Certificate  certificateDetials={eachCertificateDetails}/>
-          })
-        }
-        
-    </div>
-  )
-}
+    <div className="articles-section">
+      <div className="connect">CERTIFICATES</div>
 
-export default Certifications
+      {AllCertificateDetails.map((eachCertificateDetails) => {
+        return (
+          <Certificate
+            key={eachCertificateDetails.id}
+            certificateDetials={eachCertificateDetails}
+          />
+        );
+      })}
+    </div>
+  );
+};
+
+export default Certifications;

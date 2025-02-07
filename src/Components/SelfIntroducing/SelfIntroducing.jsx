@@ -20,7 +20,7 @@ const SelfIntroducing = () => {
         <div className="bg-circle"></div>
         <img
           className="profileImg"
-          src="https://jagadeeshtalari.github.io/JagadeeshTalari-Portfolio/images/DSCF1440.JPG"
+          src="https://avatars.githubusercontent.com/u/93560813?v=4"
           alt=""
         />
       </div>
@@ -31,7 +31,7 @@ const SelfIntroducing = () => {
       </div>
       <div className="bg-black__box">
         <a
-          href="https://drive.google.com/file/d/1NpLHS30A7iVsYr05Sxz48PvtZ588fP82/view"
+          href="https://drive.google.com/file/d/1hmWSdqODBw8ZVqv5Vii8JAOpaaCpptGG/view?usp=drive_link"
           target="_blank"
         >
           <GrAttachment className="icon-edit" />
@@ -46,7 +46,7 @@ const SelfIntroducing = () => {
             <img src={mail} alt="mail" className="BlackIcon" />
           </a>
           <a
-            href="https://www.linkedin.com/in/jagadeesh-talari-1a1396187/"
+            href="https://www.linkedin.com/in/jagadeesh-talari-sde/"
             target="_blank"
           >
             <img src={linkedIn} alt="linkedIn" className="WhiteIcon" />
