@@ -24,6 +24,15 @@ export const AllprojectDetails = [
 export const AllCertificateDetails = [
   {
     id: 1,
+    name: "Typescript",
+    credentialUrl:
+      "https://www.udemy.com/certificate/UC-66c8b38a-1656-4c6a-85d5-9087fb5375e7/",
+    platform: "Udemy",
+    duration: "09th Feb 2025 - Doesn't expire",
+    imgLink: "./assets/typescript_udemy_certificate.jpg",
+  },
+  {
+    id: 2,
     name: "Git & GitHub",
     credentialUrl:
       "https://s3-ap-southeast-1.amazonaws.com/learnyst/schools/2410/certificates/24027/5738231_24027.pdf?1665287952",
@@ -32,7 +41,7 @@ export const AllCertificateDetails = [
     imgLink: "./assets/git_github_certificate.png",
   },
   {
-    id: 2,
+    id: 3,
     name: "HTML & CSS",
     credentialUrl:
       "https://s3-ap-southeast-1.amazonaws.com/learnyst/schools/2410/certificates/98072/5738231_98072.pdf?1659974727",
