@@ -1,6 +1,16 @@
 export const AllprojectDetails = [
   {
     id: 1,
+    projectName: "My React Course",
+    imgLink:
+      "https://yt3.googleusercontent.com/gwwHPPEk9Xr6EBV2cGktSQmiWGu1R305ATn-yVFDBxduKQ1fk3Ea1h0phgpEoiDiPtRnWcJ3qA=s160-c-k-c0x00ffffff-no-rj",
+    projectLink: "https://react-course-projects-ashokit.vercel.app/",
+    sourceCodeLink: "https://github.com/Jagdeesh-SDE",
+    desc: `React course which I used to teach in Ashok IT in Hyderabad.`,
+    techUsed: ["ReactJs", "JavaScript", "Redux", "ReduxToolKit", "Tailwind CSS", "Daisy UI"],
+  },
+  {
+    id: 2,
     projectName: "Movie Review App",
     imgLink:
       "https://th.bing.com/th/id/OIP.UZ0uPe5-OYGEUwi3kWPn7QHaFX?rs=1&pid=ImgDetMain",
@@ -10,7 +20,7 @@ export const AllprojectDetails = [
     techUsed: ["ReactJs", "JavaScript", "Redux", "ReduxToolKit", "BootStrap"],
   },
   {
-    id: 2,
+    id: 3,
     projectName: "Unsplash Images",
     imgLink: "https://logowik.com/content/uploads/images/unsplash8609.jpg",
     projectLink: "https://unsplash-images-project-bay.vercel.app/",
@@ -18,6 +28,16 @@ export const AllprojectDetails = [
       "https://github.com/JagadeeshTalari/Unsplash-Images-Project",
     desc: "Built an application using Unsplash API in React.",
     techUsed: ["ReactJs", "JavaScript", "React Query", "Axios", "Unsplash API"],
+  },
+  {
+    id: 4,
+    projectName: "Test preparation",
+    imgLink: "https://logowik.com/content/uploads/images/unsplash8609.jpg",
+    projectLink: "https://sandhya-network-question-paper.vercel.app/",
+    sourceCodeLink:
+      "https://github.com/Jagdeesh-SDE",
+    desc: "Built an application for my sister for her networking exam preparation.",
+    techUsed: ["ReactJs", "JavaScript", "TailwindCSS", "Daisy Ui"],
   },
 ];
 
